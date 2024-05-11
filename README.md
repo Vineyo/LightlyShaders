@@ -35,6 +35,8 @@ git clone https://github.com/a-parhom/LightlyShaders
 
 cd LightlyShaders;
 
+git checkout plasma6;
+
 mkdir qt6build; cd qt6build; cmake ../ -DCMAKE_INSTALL_PREFIX=/usr && make && sudo make install
 ```
 
